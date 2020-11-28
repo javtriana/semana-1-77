@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+    background-color: aqua;
+}
+
+.servicios{
+    background-color: violet;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.noticias{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.noticia{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.miembros{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: rosybrown;
+    display: flex;
+}
+
+.barra-superior{
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+}
+
+.titulo-principal, .contenedor-menu{
+    width: 50%;
+}
+
+.contenedor-menu{
+
+}
+
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu-principalitem > a{
+    text-decoration: none;
+}
+
+.menu-principalitem > a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannertitulo{
+    position: absolute;
+    color: white;
+}
+
+.bannerimagen{
+
+}
+
+
+
+.servicios__contenedor{
+
+}
