@@ -7,6 +7,7 @@ body{
 
 .header{
     background-color: aqua;
+    margin-bottom: 10px;
 }
 
 .servicios{
@@ -37,7 +38,15 @@ body{
 
 .footer{
     background-color: rosybrown;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     display: flex;
+    
+    
+    
 }
 
 .barra-superior{
@@ -59,15 +68,18 @@ body{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    
 }
 
 .menu-principalitem > a{
     text-decoration: none;
+    color:blue;
 }
 
 .menu-principalitem > a:hover{
     font-size: 20px;
     text-decoration: underline;
+    
 }
 
 .baner{
@@ -82,7 +94,10 @@ body{
 }
 
 .bannerimagen{
-
+    position: center;
+   
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
