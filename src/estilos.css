@@ -10,7 +10,8 @@ body{
 }
 
 .servicios{
-    background-color: violet;
+    padding: 0.5em 0;
+    background-color:rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -87,6 +88,16 @@ body{
 
 
 
-.servicios__contenedor{
+.servicios_contenedor{
+    
+    padding: 0.5em 0;
+    width: 32.2%;
+    height: 30%;
+    background-color: white;
+    display: inline-block;
+    padding: -15px;
+    margin-top: 7px;
+    text-align:center;
+    font-family: serif;
 
 }
